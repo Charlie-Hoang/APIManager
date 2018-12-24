@@ -7,7 +7,7 @@
 1. Redefine Enpoint.swift for your own api infomation(url, endpoint, header, method)
 2. create your Request Model and conform RequestModel protocol
   ex:
-```javascript`
+```
   struct LoginRequestModel: RequestModel{
       var userName: String?
       var passwd: String?
@@ -15,7 +15,7 @@
 ```
 3. create your Response Model and conform ResponseModel
   ex:
-  ```javascript`
+  ```
   struct LoginResponseModel: ResponseModel{
       var userId: String?
       var userName: String?
@@ -23,7 +23,7 @@
   ```
 4. create request function
   ex:
-  ```javascript`
+  ```
   func doLogin(model: LoginRequestModel, success: @escaping RESPONSE_SUCCESS, failure: @escaping RESPONSE_FAILED) {
           request(endpoint: .login(model), success: { (responseData) in
               do {
@@ -38,7 +38,7 @@
   }
   ```
 5. Enjoy
-```javascript`
+```
   var loginModel = LoginRequestModel()
   loginModel.userName = "abc@gmail.com"
   loginModel.passwd = "12345678"
