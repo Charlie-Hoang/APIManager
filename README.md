@@ -1,6 +1,8 @@
 # APIManager
+* A clear way to wire network layer with moya framework
 # REQUIREMENT
-- ios10
+- ios 10.0
+- swift 4.2
 - Moya 11.0
 # USING
 
