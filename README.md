@@ -7,7 +7,8 @@
 1. Redefine Enpoint.swift for your own api infomation(url, endpoint, header, method)
 2. create your Request Model and conform RequestModel protocol
   ex:
-  'struct LoginRequestModel: RequestModel{
+  `code()`
+  struct LoginRequestModel: RequestModel{
       var userName: String?
       var passwd: String?
   }'
