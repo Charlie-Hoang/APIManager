@@ -1,5 +1,5 @@
 # APIManager
-* A clear way to wrire network layer with moya framework
+* A clear way to write network layer with moya framework
 # REQUIREMENT
 - ios 10.0
 - swift 4.2
